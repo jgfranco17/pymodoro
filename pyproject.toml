@@ -1,0 +1,22 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools", "wheel"]
+
+[tool.setuptools]
+packages = ["project_template"]
+
+[project]
+name = "project_template"
+description = "Project description goes here"
+readme = 'README.md'
+authors = [{name = "jgfranco17"}]
+classifiers = [
+	'Programming Language :: Python :: 3.8',
+	'Programming Language :: Python :: 3.9',
+	'Programming Language :: Python :: 3.10',
+]
+requires-python = '~=3.8'
+dynamic = ['version']
+
+[project.urls]
+repository = "https://github.com/jgfranco17/project-template"
