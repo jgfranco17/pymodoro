@@ -2,7 +2,8 @@
 import asyncio
 
 import click
-from base import pomodoro_cycle
+
+from pymodoro.base import pomodoro_cycle
 
 
 @click.command()
